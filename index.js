@@ -10,7 +10,7 @@ function generateCheckBoxes() {
   for (i = 0; i < slots.length; i++) {
     const day = moment().subtract(i, "days");
     htmlStrings.push(`
-      <div>
+      <div style="margin-top: 18px">
         <input
           data="${day.format(dateFormat)}" type="checkbox">${day.format(
       "dddd"
