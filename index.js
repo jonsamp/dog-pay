@@ -49,7 +49,7 @@ function main() {
     );
 
     $("#payButton").html(`
-      <a href="venmo://paycharge?txn=pay&recipients=kate-attardo&amount=${calcPayment(
+      <a href="venmo://paycharge?txn=pay&recipients=Jon-Samp&amount=${calcPayment(
         checkedBoxes
       )}&note=${encodeURI("Nikko " + formatDateRange(checkedBoxes))}"><button>Pay with venmo</button></a>
     `);
